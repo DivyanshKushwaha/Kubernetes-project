@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: kubernetes-test-app
     spec:
       containers:
-      - image: 010438503006.dkr.ecr.ap-south-1.amazonaws.com/myapp:kubernetes-test-app-v2
+      - image: 010438503006.dkr.ecr.ap-south-1.amazonaws.com/myapp:v2
         imagePullPolicy: Always
         name: kubernetes-test-app
         ports:
